@@ -13,17 +13,26 @@
 
 .header {}
 
+
 .sidebar {
-	/* hint! */
+	float: right;
+	width: 250px;
+	height: 250px;
 }
 
 .main-content {
+	float: left;
 	/* hint! */
+	width: 734px;
+	height: 250px;
 }
 
 .footer {
 	/* hint! */
+	clear: both;
 }
+
+
 
 /*
 div {
