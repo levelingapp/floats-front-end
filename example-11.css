@@ -5,10 +5,26 @@
 
 /* Example 11 */
 
-.header {}
+.header {
+	float: left;
+	width: 100%;
+}
 
-.main-content {}
+.main-content {
+	float: left;
+	width: 100%;
+}
 /* hint! */
+
+.logo {
+	/* hint! */
+	float: left;
+}
+
+.navigation {
+	/* hint! */
+	float: right;
+}
 
 .post {
 	clear: both;
