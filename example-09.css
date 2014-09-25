@@ -4,15 +4,36 @@
 /* ---------------------------------------------------------- */
 
 /* Example 09 */
-
 .header {}
 
-.sidebar {}
+.sub-container{
+	width: 1024px;
+	margin: 0px auto;
+}
 
-.main-content {}
 
-.sub-content {}
+.sidebar {
+	width: 250px;
+	float: left;
+	height: 250px;
+}
 
-.footer {}
+.main-content {
+	width: 484px;
+	float: left;
+	height: 250px;
+}
+
+.sub-content {
+	width: 250px;
+	float: left;
+	height: 250px;
+}
+
+
+.footer {
+	clear: both;
+}
+
 
 /* what do you have to add to make the sidebar and content and footer not be the full width of the browser? */
