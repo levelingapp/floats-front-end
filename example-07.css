@@ -6,23 +6,51 @@
 /* Example 07 */
 
 .container {
-	width: 1024px; /* change me to a percentage width, like 80% */
+	width: 1024px;
 	margin: 0 auto;
 }
 
+.header {
+	width: 984px;
+	float: left;
+}
+/* hint! what do you have to add here? */
 
-.header {}
+.logo {
+	/* hint! */
+	float: left;
+	width: 250px;
+}
 
-.logo {}
+.navigation {
+	/* hint! */
+	float: right;
+	width: 650px;
+}
 
-.navigation {}
+.sidebar {
+	float: left;
+	width: 250px;
+}
 
-.sidebar {}
+.main-content {
+	float: left;
+	clear:both;
+}
+/* hint! you have to contain the floated children elements. */
 
-.main-content {}
+.sub-content {
+	/* hint! */
+	float: right;
+	width: 650px;
+	margin-bottom: 20px;
+}
+.sub-content-2 {
+	/* hint! */
+	float: right;
+	width: 650px;
+}
 
-.sub-content {}
-
-.sub-content-2 {}
-
-.footer {}
+.footer {
+	clear: both;
+}
